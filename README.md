@@ -73,8 +73,5 @@ Jetson Nano
 <br> 2. The Global and Local cost-map parameters were defined for the AMR to know its restrictions for navigating in the map and move from one point to another.
 <br> 3. The value of 'sim-time' was changed for adjusting the speed of the robot to reach its destination.
 <br> 4. The target-position was defined and the robot was navigating by detecting the static and dynamic obstcles in the map to the final destination.
-
 <br> ![image](https://user-images.githubusercontent.com/9202531/217938546-6e5ae38e-0499-4773-bfb5-f81b96509aab.png)
-
-
   
