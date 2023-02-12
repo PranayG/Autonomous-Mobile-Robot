@@ -1,0 +1,15 @@
+amr_bot_controller:
+  # Publish all joint states -----------------------------------
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50
+
+  # Position Controllers --------------------------------------
+  l_wheel_joint_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: l_wheel_joint
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  r_wheel_joint_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: r_wheel_joint
+    pid: {p: 100.0, i: 0.01, d: 10.0}

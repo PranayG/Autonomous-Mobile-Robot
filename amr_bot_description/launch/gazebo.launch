@@ -1,1 +1,13 @@
-
+<launch>
+  <param name="robot_description" command="$(find xacro)/xacro $(find amr_bot_description)/urdf/amr_bot.xacro"/>
+  <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf -model amr_bot"/>
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find amr_bot_description)/worlds/teststaticlab.world"/>
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="true"/>
+    <arg name="headless" value="false"/>
+    <arg name="debug" value="true"/>
+    <arg name="verbose" value="true"/>
+  </include>
+</launch>
