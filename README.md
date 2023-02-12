@@ -11,9 +11,10 @@ Robot Operating System
 
 # Hardware Requirements 
 Aluminum extrusions 
-<br> Suspension System
+<br> Suspension System and Couplings
 <br> Hoverboard Wheels 
 <br> 3D printed Castor wheels
+
 
 # Electrical Requirements
 Jetson Nano
