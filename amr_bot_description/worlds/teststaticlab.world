@@ -85,7 +85,7 @@
       <elevation>0</elevation>
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
-    <model name='staticlab'>
+    <model name='sexlab'>
       <link name='link_0'>
         <inertial>
           <mass>1</mass>
@@ -98,7 +98,7 @@
             <izz>0.166667</izz>
           </inertia>
         </inertial>
-        <pose frame=''>0 -0 0 0 -0 0</pose>
+        <pose frame=''>-0 -0 0 0 -0 0</pose>
         <visual name='visual'>
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
@@ -179,13 +179,13 @@
       </link>
       <static>1</static>
       <allow_auto_disable>1</allow_auto_disable>
-      <pose frame=''>-0.029112 0.056201 0 0 -0 0</pose>
+      <pose frame=''>0.011959 0.013712 -0.161894 0 -0 0</pose>
     </model>
     <state world_name='default'>
-      <sim_time>12 481000000</sim_time>
-      <real_time>12 568068951</real_time>
-      <wall_time>1649879732 20673308</wall_time>
-      <iterations>12481</iterations>
+      <sim_time>5 109000000</sim_time>
+      <real_time>5 151288278</real_time>
+      <wall_time>1649880190 123197332</wall_time>
+      <iterations>5109</iterations>
       <model name='ground_plane'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -196,11 +196,11 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='staticlab'>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+      <model name='sexlab'>
+        <pose frame=''>0.011959 0.013712 -0.161894 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link_0'>
-          <pose frame=''>0 0 0 0 -0 0</pose>
+          <pose frame=''>0.011959 0.013712 -0.161894 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -212,7 +212,7 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose frame=''>-17.5938 0.631704 14.6095 -0 0.795644 -0.011801</pose>
+        <pose frame=''>-29.8498 10.3052 18.4578 0 0.710796 -0.348004</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>

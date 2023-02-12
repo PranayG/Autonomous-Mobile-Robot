@@ -85,8 +85,8 @@
       <elevation>0</elevation>
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
-    <model name='staticlab'>
-      <link name='link_0'>
+    <model name='clgLab'>
+      <link name='link_1'>
         <inertial>
           <mass>1</mass>
           <inertia>
@@ -98,12 +98,12 @@
             <izz>0.166667</izz>
           </inertia>
         </inertial>
-        <pose frame=''>0 -0 0 0 -0 0</pose>
+        <pose frame=''>0 -5e-06 0 0 -0 0</pose>
         <visual name='visual'>
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/aabid/Downloads/Blender Exports/lab.dae</uri>
+              <uri>/home/aabid/Downloads/Blender Exports/lab.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -123,7 +123,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/aabid/Downloads/Blender Exports/lab.dae</uri>
+              <uri>/home/aabid/Downloads/Blender Exports/lab.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -177,29 +177,29 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <static>1</static>
+      <static>0</static>
       <allow_auto_disable>1</allow_auto_disable>
-      <pose frame=''>-0.029112 0.056201 0 0 -0 0</pose>
+      <pose frame=''>0.811067 -1.37848 0 0 -0 0</pose>
     </model>
     <state world_name='default'>
-      <sim_time>12 481000000</sim_time>
-      <real_time>12 568068951</real_time>
-      <wall_time>1649879732 20673308</wall_time>
-      <iterations>12481</iterations>
-      <model name='ground_plane'>
+      <sim_time>3290 785000000</sim_time>
+      <real_time>3308 3280707</real_time>
+      <wall_time>1649871307 513800332</wall_time>
+      <iterations>3290785</iterations>
+      <model name='clgLab'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <scale>1 1 1</scale>
-        <link name='link'>
-          <pose frame=''>0 0 0 0 -0 0</pose>
+        <link name='link_1'>
+          <pose frame=''>0 -5e-06 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='staticlab'>
+      <model name='ground_plane'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <scale>1 1 1</scale>
-        <link name='link_0'>
+        <link name='link'>
           <pose frame=''>0 0 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
@@ -212,7 +212,7 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose frame=''>-17.5938 0.631704 14.6095 -0 0.795644 -0.011801</pose>
+        <pose frame=''>-15.5914 -4.50616 20.6986 0 1.0218 -0.231816</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
