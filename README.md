@@ -29,7 +29,7 @@ Jetson Nano
 
 # Methodology
   <b> Building the Chassis </b>
-1. Disassembled the Hoverboard to extract the Hoverboard wheels , hub motors and the hoverboard programmer.
+<br> 1. Disassembled the Hoverboard to extract the Hoverboard wheels , hub motors and the hoverboard programmer.
 2. Cut aluminum extrusions according to the required size to build the chassis.
 <br> ![image](https://user-images.githubusercontent.com/9202531/217937371-fb2738ce-dc58-4fe0-b3d1-f3ccf253733b.png)
 
