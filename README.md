@@ -23,6 +23,7 @@ Jetson Nano
 <br> Hoverboard programmer
 <br> 32V- Li-ion battery
 <br> 12V Li-ion battery
+<br> Voltage Stabilizer
 
 
 # Methodology
